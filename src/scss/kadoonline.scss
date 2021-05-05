@@ -1,0 +1,44 @@
+// Required
+@import "variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+$nunito: 'Nunito', sans-serif; 
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "buttons.scss";
+@import "cards.scss";
+@import "box.scss";
+
+#jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1366px;
+  background-origin: border-box;
+}
+#promo_builder{
+  // background-image: url('/img/bg_gift_2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  background-origin: border-box;
+  .container {
+    .row {
+      .col-12 {
+        
+        .card {
+          
+        }
+      }
+    }
+  }
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.btn {
+  font-family: $nunito;
+  font-weight: bold;
+}
